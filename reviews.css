@@ -1,0 +1,158 @@
+div#titulo {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.64);
+    color: #FEC150;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.4em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#titulo {
+        font-size: 1em;
+    
+    }
+
+}
+
+div#opinioes {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.64);
+
+}
+
+div#opinioes div {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Serif Old Uyghur', serif;
+    color: #fdfdfd;
+    font-size: 1.2em;
+
+}
+
+div#vinho {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+div#noz {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+div#geleia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+div#fruta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+div#pao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+div#geleia div#ge3 a {
+    color: #050D22;
+}
+div#fruta div#fr3 {
+    font-size: 0.8em;
+}
+div#pao div#pa3 {
+    font-size: 0.8em;
+}
+
+div#opinioes .terceiro, div#opinioes a {
+    width: 100%;
+    height: 10vh;
+    text-decoration: none;
+    color: #FEC150;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.4em;
+}
+
+div#vinho .textoopi, div#fruta .textoopi {
+    background-color: #050d228e;
+}
+div#noz .textoopi , div#pao .textoopi {
+    background-color: #00220a88;
+}
+div#geleia .textoopi {
+    background-color: #fec15095;
+}
+
+div#vinho .primeiro , div#fruta .primeiro {
+    background-color: #050d2276;
+}
+div#noz .primeiro , div#pao .primeiro {
+    background-color: #00220a6d;
+}
+div#geleia .primeiro {
+    background-color: #fec15063;
+}
+
+div#vinho .terceiro, div#fruta .terceiro {
+    background-color: #050D22;
+}
+div#noz .terceiro, div#pao .terceiro {
+    background-color: #00220A;
+}
+div#geleia .terceiro {
+    background-color: #FEC150;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    div#opinioes {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+}

@@ -1,0 +1,444 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+div#titulofundo {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+div#titulo {
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050d22 ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    padding: 5px;
+    color: #FEC150;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.2em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#titulofundo {
+        height: 15vh;
+  
+    }
+
+    div#titulo {
+        width: 60%;
+        height: 6vh;
+        font-size: 0.6em;
+    
+    }
+}
+
+div#vinho {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#vinho img {
+    width: 20%;
+    height: 10vh;
+    
+}
+
+div#vinho div#foto {
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #00220a;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#vinho div#des {
+    width: 75%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+
+}
+
+div#linha4 {
+    width: 0.2vw;
+    height: 15vh;
+    background-color: #050D22;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#vinho {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#vinho img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#vinho div#foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#vinho div#des {
+        width: 100%;
+        height: 20vh;
+    
+    }
+
+    div#linha4 {
+        width: 100%;
+        height: 0.2vh;
+        background-color: #050D22;
+    
+    }
+
+}
+
+div#nuts {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#nuts img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#nuts div#foto {
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #050D22;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#nuts div#des {
+    width: 75%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #050d228e;
+
+}
+
+div#linha5 {
+    width: 0.2vw;
+    height: 15vh;
+    background-color: #00220a;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#nuts {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#nuts img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#nuts div#foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#nuts div#des {
+        width: 100%;
+        height: 20vh;
+    
+    }
+
+    div#linha5 {
+        width: 100%;
+        height: 0.2vh;
+        background-color: #00220a;
+    
+    }
+}
+
+div#geleia {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#geleia img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#geleia div#foto {
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FEC150;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#geleia div#des {
+    width: 75%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+
+}
+
+div#linha6 {
+    width: 0.2vw;
+    height: 15vh;
+    background-color: #050D22;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#geleia {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#geleia img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#geleia div#foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#geleia div#des {
+        width: 100%;
+        height: 20vh;
+    
+    }
+
+    div#linha6 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+}
+
+div#fruta {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#fruta img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#fruta div#foto {
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #00220a;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#fruta div#des {
+    width: 75%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+
+}
+
+div#linha7 {
+    width: 0.2vw;
+    height: 15vh;
+    background-color: #050D22;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#fruta {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#fruta img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#fruta div#foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#fruta div#des {
+        width: 100%;
+        height: 20vh;
+    
+    }
+
+    div#linha7 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+}
+
+div#pao {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#pao img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#pao div#foto {
+    width: 25%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #050D22;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#pao div#des {
+    width: 75%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #050d228e;
+
+}
+
+div#linha8 {
+    width: 0.2vw;
+    height: 15vh;
+    background-color: #00220a;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#pao {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#pao img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#pao div#foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#pao div#des {
+        width: 100%;
+        height: 20vh;
+    
+    }
+
+    div#linha8 {
+        width: 100%;
+        height: 0.2vh;
+        background-color: #00220a;
+    
+    }
+}

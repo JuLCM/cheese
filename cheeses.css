@@ -1,0 +1,190 @@
+div#queijos {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.64);
+
+}
+
+div#queijostexto {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Homemade Apple', cursive;
+    color: #fdfdfd;
+    margin-top: 30px;
+    font-size: 1.2em;
+    
+}
+
+div#circulos {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+div#circulos a {
+    text-decoration: none;
+    color: #FEC150;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.4em;
+
+}
+
+div#circulos div {
+    background-color: #050D22;
+    border-color: #00220A;
+    border-style: solid;
+    width: 12%;
+    height: 20vh;
+    border-radius: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#queijos {
+        height: 130vh;
+
+    }
+
+    div#queijostexto {
+        font-size: 1em;
+        
+    }
+
+    div#circulos {
+        height: 110vh;
+        flex-direction: column;
+       
+    }
+
+    div#circulos div {
+        width: 48vw;
+        height: 72vh;
+        margin-bottom: 10px;
+        
+    }
+}
+
+div#historia {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.64);
+
+}
+
+div#historia div {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Homemade Apple', cursive;
+    color: #fdfdfd;
+    font-size: 0.6em;
+
+}
+
+div#historia img {
+    width: 100%;
+    height: 10vh;
+}
+
+div#hist1, div#hist4 {
+    background-color: #00220a88;
+}
+div#hist2, div#hist5 {
+    background-color: #050d228e;
+}
+div#hist3 {
+    background-color: #fec15095;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    div#historia {
+        width: 100%;
+        height: 150vh;
+        flex-direction: column;
+
+    }
+}
+
+div#linha3, div#linha3 p {
+    width: 100%;
+    height: 0.2vh;
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fdfdfd;
+    font-size: 0.5em;
+
+}
+
+div#sabor {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.64);
+
+}
+
+div#sabor div {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Homemade Apple', cursive;
+    color: #fdfdfd;
+    font-size: 0.6em;
+
+}
+
+div#sabor img {
+    width: 100%;
+    height: 10vh;
+}
+
+div#sab1, div#sab4 {
+    background-color: #00220a88;
+}
+div#sab2, div#sab5 {
+    background-color: #050d228e;
+}
+div#sab3 {
+    background-color: #fec15095;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    div#sabor {
+        width: 100%;
+        height: 150vh;
+        flex-direction: column;
+
+    }
+}
