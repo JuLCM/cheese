@@ -36,7 +36,7 @@ div#circulos a {
     text-decoration: none;
     color: #FEC150;
     font-family: 'Homemade Apple', cursive;
-    font-size: 1.4em;
+    font-size: 1.2em;
 
 }
 
@@ -100,6 +100,7 @@ div#historia div {
     font-family: 'Homemade Apple', cursive;
     color: #fdfdfd;
     font-size: 0.6em;
+    text-align: center;
 
 }
 
@@ -158,6 +159,7 @@ div#sabor div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-family: 'Homemade Apple', cursive;
     color: #fdfdfd;
     font-size: 0.6em;

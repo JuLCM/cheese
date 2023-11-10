@@ -22,7 +22,7 @@ div#titulo {
     padding: 5px;
     color: #FEC150;
     font-family: 'Homemade Apple', cursive;
-    font-size: 1.2em;
+    font-size: 1em;
 
 }
 
@@ -35,7 +35,7 @@ div#titulo {
     div#titulo {
         width: 60%;
         height: 6vh;
-        font-size: 1em;
+        font-size: 0.8em;
     
     }
 }

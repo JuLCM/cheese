@@ -21,7 +21,7 @@ div#titulo {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    color: #Fdfdfd;
+    color: #050D22;
     font-family: 'Homemade Apple', cursive;
     font-size: 1.2em;
 
@@ -33,7 +33,7 @@ div#titulo img {
 
 @media only screen and (max-width: 800px) {
     div#titulofundo {
-        height: 20vh;
+        height: 30vh;
   
     }
 
@@ -47,7 +47,7 @@ div#titulo img {
 
 div#berries {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -61,7 +61,7 @@ div#berries img {
 
 div#berries div#foto {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +75,7 @@ div#berries div#foto {
 
 div#berries div#des {
     width: 40%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,26 +86,26 @@ div#berries div#des {
 
 div#linha5 {
     width: 0.2vw;
-    height: 15vh;
+    height: 18vh;
     background-color: #050D22;
 
 }
 div#linha4 {
     width: 0.2vw;
-    height: 15vh;
+    height: 18vh;
     background-color: #00220a;
 
 }
 div#linha6 {
     width: 0.2vw;
-    height: 15vh;
+    height: 18vh;
     background-color: #FEC150;
 
 }
 
 div#berries div#queijo {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,7 +120,7 @@ div#berries div#queijo {
 
 div#berries div#vinho {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,7 +192,7 @@ div#berries div#vinho {
 
 div#pepper {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -206,7 +206,7 @@ div#pepper img {
 
 div#pepper div#foto {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,7 +220,7 @@ div#pepper div#foto {
 
 div#pepper div#des {
     width: 40%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,7 +231,7 @@ div#pepper div#des {
 
 div#pepper div#queijo {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,7 +246,7 @@ div#pepper div#queijo {
 
 div#pepper div#vinho {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,7 +302,7 @@ div#pepper div#vinho {
 
 div#dam {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -316,7 +316,7 @@ div#dam img {
 
 div#dam div#foto {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,7 +330,7 @@ div#dam div#foto {
 
 div#dam div#des {
     width: 40%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -341,7 +341,7 @@ div#dam div#des {
 
 div#dam div#queijo {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -356,7 +356,7 @@ div#dam div#queijo {
 
 div#dam div#vinho {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -412,7 +412,7 @@ div#dam div#vinho {
 
 div#ora {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -426,7 +426,7 @@ div#ora img {
 
 div#ora div#foto {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -440,7 +440,7 @@ div#ora div#foto {
 
 div#ora div#des {
     width: 40%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -451,7 +451,7 @@ div#ora div#des {
 
 div#ora div#queijo {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -466,7 +466,7 @@ div#ora div#queijo {
 
 div#ora div#vinho {
     width: 20%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;

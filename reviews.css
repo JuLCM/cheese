@@ -102,20 +102,25 @@ div#geleia div#ge3 a {
     color: #050D22;
 }
 div#fruta div#fr3 {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 div#pao div#pa3 {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 div#opinioes .terceiro, div#opinioes a {
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     text-decoration: none;
     color: #FEC150;
     font-family: 'Homemade Apple', cursive;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
 
 div#vinho .textoopi, div#fruta .textoopi {
     background-color: #050d228e;
@@ -154,5 +159,10 @@ div#geleia .terceiro {
         height: auto;
         flex-direction: column;
 
+    }
+
+    div#opinioes .terceiro {
+        height: 30vh;
+        font-size: 1.4em;
     }
 }

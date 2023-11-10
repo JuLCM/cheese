@@ -33,7 +33,7 @@ div#titulo img {
 
 @media only screen and (max-width: 800px) {
     div#titulofundo {
-        height: 20vh;
+        height: 30vh;
   
     }
 
@@ -47,7 +47,7 @@ div#titulo img {
 
 div#tinto {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -61,7 +61,7 @@ div#tinto img {
 
 div#tinto div#foto {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +75,7 @@ div#tinto div#foto {
 
 div#tinto div#des {
     width: 50%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,20 +86,20 @@ div#tinto div#des {
 
 div#linha5 {
     width: 0.2vw;
-    height: 15vh;
+    height: 18vh;
     background-color: #050D22;
 
 }
 div#linha4 {
     width: 0.2vw;
-    height: 15vh;
+    height: 18vh;
     background-color: #00220a;
 
 }
 
 div#tinto div#queijo {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,7 +161,7 @@ div#tinto div#queijo {
 
 div#branco {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -175,7 +175,7 @@ div#branco img {
 
 div#branco div#foto {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +189,7 @@ div#branco div#foto {
 
 div#branco div#des {
     width: 50%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +200,7 @@ div#branco div#des {
 
 div#branco div#queijo {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,7 +249,7 @@ div#branco div#queijo {
 
 div#rose {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -263,7 +263,7 @@ div#rose img {
 
 div#rose div#foto {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,7 +277,7 @@ div#rose div#foto {
 
 div#rose div#des {
     width: 50%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,7 +288,7 @@ div#rose div#des {
 
 div#rose div#queijo {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -337,7 +337,7 @@ div#rose div#queijo {
 
 div#espumante {
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: row;
 
@@ -351,7 +351,7 @@ div#espumante img {
 
 div#espumante div#foto {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,7 +365,7 @@ div#espumante div#foto {
 
 div#espumante div#des {
     width: 50%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -376,7 +376,7 @@ div#espumante div#des {
 
 div#espumante div#queijo {
     width: 25%;
-    height: 15vh;
+    height: 18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
