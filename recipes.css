@@ -125,6 +125,10 @@ div#receita1a {
     font-size: 1em;
 }
 
+p {
+    padding: 10px;
+}
+
 div#receita1a h1 {
     color: #050D22;
 }
@@ -140,8 +144,26 @@ div#receitaamarelo {
 
 
 @media only screen and (max-width: 800px) {
+    div#receita1v {
+        flex-direction: column;
+        height: auto;
+
+    }
+    
+    div#receita2v {
+        flex-direction: column;
+        height: auto;
+
+    }
+    
+    div#receitaamarelo {
+        height: 40vh;
+    }
+
     div#receita1a {
         width: 100%;
+        height: 40vh;
+        flex-direction: column;
         
     }
 }

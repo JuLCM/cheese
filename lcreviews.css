@@ -131,4 +131,8 @@ div#linhameio {
         flex-direction: column;
     }
     
+    p {
+        padding: 15px;
+    }
+
 }

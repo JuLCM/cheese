@@ -87,7 +87,7 @@ div#histtexto {
 
 @media only screen and (max-width: 800px) {
     div#historia {
-        height: 100vh;
+        height: auto;
         flex-direction: column;
 
     }
@@ -106,7 +106,7 @@ div#histtexto {
 
     div#histtexto {
         width: 100%;
-        height: 85vh;
+        height: auto;
     
     }
 }
@@ -210,5 +210,9 @@ div#foto img {
         width: 90%;
         height: 40vh;
        
+    }
+
+    p {
+        padding: 20px;
     }
 }

@@ -114,7 +114,7 @@ div#opinioes .terceiro, div#opinioes a {
     text-decoration: none;
     color: #FEC150;
     font-family: 'Homemade Apple', cursive;
-    font-size: 1.2em;
+    font-size: 1.1em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,6 +150,10 @@ div#noz .terceiro, div#pao .terceiro {
 }
 div#geleia .terceiro {
     background-color: #FEC150;
+}
+
+p {
+    padding: 15px;
 }
 
 @media only screen and (max-width: 800px) {

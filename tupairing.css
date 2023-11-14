@@ -42,6 +42,11 @@ div#titulo {
         font-size: 1em;
     
     }
+}p {
+    font-size: 1.3em;
+    color: #050D22;
+    padding: 15px;
+    font-family: 'Noto Serif Old Uyghur', serif;
 }
 
 div#vinho {

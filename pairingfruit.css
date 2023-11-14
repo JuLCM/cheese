@@ -45,6 +45,13 @@ div#titulo img {
     }
 }
 
+p {
+    font-size: 1.3em;
+    color: #fdfdfd;
+    padding: 15px;
+    font-family: 'Noto Serif Old Uyghur', serif;
+}
+
 div#uva {
     width: 100%;
     height: 18vh;

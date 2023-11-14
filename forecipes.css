@@ -109,7 +109,7 @@ div#ingredientes div#texto {
     text-align: center;
     background-color: #00220a88;
     color: #fdfdfd;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Noto Serif Old Uyghur', serif;
 
 }
@@ -187,15 +187,19 @@ div#modo div#texto {
     text-align: center;
     background-color: #050d228e;
     color: #fdfdfd;
-    font-size: 1em;
+    font-size: 1.4em;
     font-family: 'Noto Serif Old Uyghur', serif;
 
+}
+
+p {
+    padding: 20px;
 }
 
 @media only screen and (max-width: 800px) {
     div#modo {
         width: 100%;
-        height: 80vh;
+        height: auto;
         
     }
 
@@ -206,7 +210,8 @@ div#modo div#texto {
 
     div#modo div#texto {
         width: 100%;
-        height: 70vh;
+        height: auto;
+        font-size: 1.3em;
     
     }
 }

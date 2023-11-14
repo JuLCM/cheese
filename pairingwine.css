@@ -45,6 +45,13 @@ div#titulo img {
     }
 }
 
+p {
+    font-size: 1.3em;
+    color: #Fdfdfd;
+    padding: 15px;
+    font-family: 'Noto Serif Old Uyghur', serif;
+}
+
 div#tinto {
     width: 100%;
     height: 18vh;
@@ -395,6 +402,10 @@ div#espumante div#queijo {
        height: auto;
        flex-direction: column;
 
+    }
+
+    p {
+        padding: 20px;
     }
 
     div#espumante img {

@@ -125,10 +125,30 @@ div#linhameio {
 }
 
 @media only screen and (max-width: 800px) {
+    div#positivos div#p1,  div#positivos div#p2   {
+        height: auto;
+    
+    }
+
+    div#positivos {
+        height: auto;
+    }
+    div#negativos {
+        height: auto;
+    }
+
+    div#negativos div#n1, div#negativos div#n2 {
+        height: auto;
+    }
+    
     div#comentarios {
         width: 100%;
         height: auto;
         flex-direction: column;
     }
     
+    p {
+        padding: 15px;
+    }
+
 }
